@@ -1,6 +1,26 @@
 # fish-index
 
-🐟 Shows indexed chars of a hidden input string
+🐟 Shows indexed chars for visible or hidden input strings
+
+## Demo
+
+![Demo usage of fish-index](https://user-images.githubusercontent.com/497458/66255972-61da3a80-e781-11e9-9656-e4f0db3eb70e.gif)
+
+## Installation
+
+Install with your favourite fish package manager, such as [fisherman][] or [oh-my-fish][omf]
+```fish
+# Install with fisher v3
+fisher add dideler/fish-index
+
+# Install with fisher v2
+fisher install dideler/fish-index
+
+# Install with oh-my-fish
+omf install https://github.com/dideler/fish-index
+```
+
+## Usage
 
 ```
 Usage: index [OPTION] [STRINGS]
