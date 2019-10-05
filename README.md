@@ -19,6 +19,13 @@ Examples:
     1: c
     2: d
 
+    $ index "ab cd"
+    1: a
+    2: b
+    3:
+    4: c
+    5: d
+
     $ index
     Secret ▶ ●●●●
     Chars  ▶ 2 4

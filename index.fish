@@ -21,6 +21,13 @@ function index --description "Shows character indexes of a string"
     echo "    1: c"
     echo "    2: d"
     echo
+    echo "    \$ index \"ab cd\""
+    echo "    1: a"
+    echo "    2: b"
+    echo "    3:"
+    echo "    4: c"
+    echo "    5: d"
+    echo
     echo "    \$ index"
     echo "    Secret ▶ ●●●●"
     echo "    Chars  ▶ 2 4"
