@@ -1,6 +1,6 @@
 # fish-index
 
-🐟 Shows indexed chars for visible or hidden input strings
+Shows indexed characters for hidden or visible input strings.
 
 ## Demo
 
