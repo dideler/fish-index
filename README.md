@@ -8,7 +8,7 @@ Shows indexed characters for hidden or visible input strings.
 
 ## Installation
 
-Install with your favourite fish package manager, such as [fisherman][] or [oh-my-fish][omf]
+Install with your favourite fish package manager, such as [fisherman][] or [oh-my-fish][]
 ```fish
 # Install with fisher v3
 fisher add dideler/fish-index
@@ -62,3 +62,6 @@ Examples:
 Options:
     -h, --help      Prints help and exits
 ```
+
+[fisherman]: https://github.com/fisherman/fisherman
+[oh-my-fish]: https://github.com/oh-my-fish/oh-my-fish
