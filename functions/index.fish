@@ -54,16 +54,16 @@ function index --description "Shows character indexes of a string"
     if string match -qr . -- "$paste_data"
       set secret $paste_data
       fish_clipboard_copy
-      echo "Secret fetched and erased from clipboard"
+      echo "Secret  ▶ popped from clipboard"
     else
-      read_silent --prompt="Secret ▶ " secret
+      read_silent --prompt="Secret  ▶ " secret
     end
 
     test -z "$secret" && return 1
     set --local chars (string split '' $secret)
     set --erase secret
 
-    read --delimiter=' ' --array --prompt-str="Indexes  ▶ " --local raw_indexes
+    read --delimiter=' ' --array --prompt-str="Indexes ▶ " --local raw_indexes
 
     set --local indexes
     for i in $raw_indexes
