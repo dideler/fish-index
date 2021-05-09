@@ -9,8 +9,11 @@ function index --description "Shows character indexes of a string"
     echo
     echo "Description:"
     echo "    Prints the index of characters in a string."
-    echo "    Sensitive strings can be given as a prompt,"
+    echo "    Sensitive strings can be given as a prompt"
+    echo "    or fetched and cleared from the clipboard,"
     echo "    to avoid appearing in the shell's history."
+    echo
+    echo "    When no indexes given, prints all indexes."
     echo
     echo "Examples:"
     echo
@@ -29,14 +32,21 @@ function index --description "Shows character indexes of a string"
     echo "    5: d"
     echo
     echo "    \$ index"
-    echo "    Secret ▶ ●●●●"
-    echo "    Chars  ▶ 2 4"
+    echo "    Secret  ▶ ●●●●"
+    echo "    Indexes ▶ 2 4"
     echo "    2: x"
     echo "    4: z"
     echo
     echo "    \$ index"
-    echo "    Secret ▶ ●●●"
-    echo "    Chars  ▶ "
+    echo "    Secret  ▶ ●●●"
+    echo "    Indexes ▶ "
+    echo "    1: x"
+    echo "    2: y"
+    echo "    3: z"
+    echo
+    echo "    \$ index"
+    echo "    Secret  ▶ popped from clipboard"
+    echo "    Indexes ▶ 1 2 3"
     echo "    1: x"
     echo "    2: y"
     echo "    3: z"
