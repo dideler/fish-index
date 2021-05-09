@@ -30,8 +30,11 @@ Usage: index [OPTION] [STRINGS]
 
 Description:
     Prints the index of characters in a string.
-    Sensitive strings can be given as a prompt,
+    Sensitive strings can be given as a prompt
+    or fetched and cleared from the clipboard,
     to avoid appearing in the shell's history.
+
+    When no indexes given, prints all indexes.
 
 Examples:
 
@@ -50,14 +53,21 @@ Examples:
     5: d
 
     $ index
-    Secret ▶ ●●●●
-    Chars  ▶ 2 4
+    Secret  ▶ ●●●●
+    Indexes ▶ 2 4
     2: x
     4: z
 
     $ index
-    Secret ▶ ●●●
-    Chars  ▶
+    Secret  ▶ ●●●
+    Indexes ▶
+    1: x
+    2: y
+    3: z
+
+    $ index
+    Secret  ▶ popped from clipboard
+    Indexes ▶ 1 2 3
     1: x
     2: y
     3: z
