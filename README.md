@@ -10,6 +10,9 @@ Shows indexed characters for hidden or visible input strings.
 
 Install with your favourite fish package manager, such as [fisherman][] or [oh-my-fish][]
 ```fish
+# Install with fisher v4
+fisher install dideler/fish-index
+
 # Install with fisher v3
 fisher add dideler/fish-index
 
