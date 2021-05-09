@@ -63,7 +63,7 @@ function index --description "Shows character indexes of a string"
     set --local chars (string split '' $secret)
     set --erase secret
 
-    read --delimiter=' ' --array --prompt-str="Chars  ▶ " --local raw_indexes
+    read --delimiter=' ' --array --prompt-str="Indexes  ▶ " --local raw_indexes
 
     set --local indexes
     for i in $raw_indexes
